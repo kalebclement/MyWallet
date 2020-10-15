@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    color: #fff;
+    font-family: 'Hobo Std';
+    background: url(../image/background.svg);
+}
+footer {
+    background: rgba(10, 10, 10, 0.466);
+}
+/*NAVIGATION BAR*/
+nav {
+    background: url("../image/menu.svg");
+    top: 0;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0px 5px 8px #16161688;
+    z-index: 999;
+}
+nav ul {
+    margin: 0 auto;
+    transition: 0.5s;
+    text-align: center;
+}
+.logo {
+    font-family: 'Fredoka One';
+    color: #F6CFBC;
+    margin-top: 1px;
+    margin-left: 30px;
+    font-size: 30pt;
+    /* position: fixed; */
+    float: left;
+    text-shadow: 6px 8px 6px #491C1C;
+}
+nav ul li {
+    /* margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    list-style: none;
+    display: inline-block;
+    text-transform: uppercase;
+}
+nav ul li a {
+    margin-right: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+    font-family: 'Segoe UI';
+    color: #fff;
+    text-shadow: 6px 8px 6px rgba(27, 26, 26, 0.562);
+    /* font-weight: bold; */
+    transition: 0.5s;
+}
+nav ul li a:hover {
+    margin: 50px;
+    transition: 0.5s;
+}
+nav ul li:hover {
+    background: rgba(163, 119, 22, 0.63);
+    transition: 0.5s;
+}
+.logout:hover {
+    background: rgba(47, 0, 255, 0.623);
+    transition: 0.5s;
+}
+/* END OF NAVIGATION BAR */
+
+#content {
+    margin-top: 15vh;
+    margin-left: 5%;
+    margin-right: 5%;
+    z-index: 0;
+}
+.h1 {
+    font-family: 'Blenda Script';
+    font-size: 48pt;
+    text-align: center;
+}
+select {
+    font-family: 'Raleway';
+    width: 300px;
+    height: 25px;
+}
+.h2 {
+    /* margin-left: 35%; */
+    width: 60vh;
+    padding: 7px;
+    /* height: 40px; */
+    text-align: center;
+    background: rgba(113, 76, 233, 0.54);
+    border: 1px solid #fff;
+    box-shadow: 6px 8   px 12px rgba(0, 0, 0, 0.651);
+}
+p {
+    line-height: 30px;
+    font-size: 16pt;
+}
+.button {
+    background-color: rgba(0, 255, 8, 0.507);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: rgb(255, 253, 253) 1px solid;
+    border-radius: 5px;
+    transition: 0,2s;
+}
+.button:hover {
+    border-color: black;
+    background-color: rgba(2, 0, 0, 0.514);
+    transition: 0.2s;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Dompet - About</title>
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript">
+        function PopupWindow(myURL, title, myWidth, myHeight) {
+            var left = (screen.width - myWidth) / 2;
+            var top = (screen.height - myHeight) / 4;
+            var myWindow = window.open(myURL, title, 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=' + myWidth + ', height=' + myHeight + ', top=' + top + ', left=' + left);
+            if(window.focus) {
+                myWindow.focus();
+            }
+        }
+    </script>
+</head>
+<body>
+    <style>
+        #conn li {
+            text-transform: capitalize;
+            font-weight: bold;
+        }
+    </style>
+    <div class="wrapper">
+        <nav>
+            <div class="logo">Dompet</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li class="regist"><a href="register/">Register</a></li>
+                <li class="login"><a href="login/">Login</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="content">
+        <!-- Content is here -->
+        <h1 class="h1">About !</h1>
+        <h3>Creator : </h3>
+        <p>Geraldo Febrian J. / 001201800035 / geraldo.febrian12@gmail.com</p>
+        <p>Kaleb Clement S. / 001201800051 / kalebclement19@gmail.com</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    color: #fff;
+    font-family: 'Raleway';
+    background: url(../background-1.svg);
+}
+/*NAVBAR*/
+nav {
+    background-color: rgba(0, 0, 0, 0.774);
+    top: 0;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0px 5px 8px #16161688;
+    z-index: 999;
+}
+nav ul {
+    margin: 0 auto;
+    transition: 0.5s;
+    text-align: center;
+}
+.logo {
+    font-family: 'Fredoka One';
+    color: #F6CFBC;
+    margin-top: 1px;
+    margin-left: 30px;
+    font-size: 30pt;
+    float: left;
+    text-shadow: 6px 8px 6px #491C1C;
+}
+nav ul li {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    list-style: none;
+    display: inline-block;
+    text-transform: uppercase;
+}
+nav ul li a {
+    margin-right: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+    font-family: 'Segoe UI';
+    color: #fff;
+    text-shadow: 6px 8px 6px rgba(27, 26, 26, 0.562);
+    transition: 0.5s;
+}
+nav ul li a:hover {
+    margin: 50px;
+    transition: 0.5s;
+}
+nav ul li:hover {
+    background: rgba(255, 251, 0, 0.63);
+    transition: 0.5s;
+}
+.login:hover {
+    background: rgba(43, 255, 0, 0.623);
+    transition: 0.5s;
+}
+.regist:hover {
+    background: rgba(25, 0, 255, 0.596);
+    transition: 0.5s;
+}
+/* END OF NAVBAR */
+
+#content {
+    margin-top: 15vh;
+    margin-left: 5%;
+    margin-right: 5%;
+    z-index: 0;
+}
+select {
+    font-family: 'Raleway';
+    width: 300px;
+    height: 25px;
+}
+.h1 {
+    font-family: 'Blenda Script';
+    font-size: 48pt;
+    text-align: center;
+    text-shadow: 6px 8px 12px rgba(31, 29, 29, 0.692);
+}
+.form {
+    font-family: 'Raleway';
+    width: 300px;
+    height: 20px;
+}
+#regist {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 15vh;
+    text-align: center;
+}
+#registt {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 12vh;
+    position: relative;
+    text-align: center;
+}
+#form {
+    position: relative;
+    width: 35%;
+    left: 30%;
+    padding: 40px;
+    text-align: right;
+    border: white 2px solid;
+    border-radius: 15px;
+    background: rgba(27, 22, 22, 0.397);
+    box-shadow: 8px 12px 30px rgba(5, 4, 4, 0.603);
+}
+.button {
+    background-color: rgba(0, 255, 8, 0.507);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: rgb(255, 253, 253) 1px solid;
+    border-radius: 5px;
+    transition: 0,2s;
+}
+.button:hover {
+    border-color: black;
+    background-color: rgba(2, 0, 0, 0.514);
+    transition: 0.2s;
+}
+/* DEPOSIT */
+#deposit {
+    top: 0;
+    font-family: 'Hobo Std';
+    font-size: 16pt;
+}

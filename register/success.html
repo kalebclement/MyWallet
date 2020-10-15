@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="../icon.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <title>Register - 1</title>
+    <!-- <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script> -->
+    <script type="text/javascript">
+        function countdown() {
+            var count1 = 5;
+            var myTimer = setInterval(function() {
+                document.getElementById("main").innerHTML = count1;
+                count1--;
+                if (count1 == -1) {
+                clearInterval(myTimer);
+                localStorage.clear();
+                redirect();
+                }
+            }, 1000);
+        }
+        function redirect() {
+        window.open('../', '_self', '');
+        window.close();
+    }
+    </script>
+</head>
+<body onload="countdown()">
+    <div id="content">
+        <h1 class="h1">Success!</h1>
+        <p style="text-align: center;">Thank you for submiting the form. we will check<br>
+            your data in a couple minutes.
+        </p>
+        <h1 class="h1" id="main"></h1>
+    </div>
+</body>
+</html>

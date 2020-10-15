@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    background: url("../background-1.svg");
+    color: #fff;
+    font-family: 'Raleway';
+}
+nav {
+    background-color: rgba(0, 0, 0, 0.774);
+    top: 0;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0px 5px 8px #16161688;
+}
+nav ul {
+    margin: 0 auto;
+    transition: 0.5s;
+    text-align: center;
+}
+.logo {
+    font-family: 'Fredoka One';
+    color: #F6CFBC;
+    margin-top: 1px;
+    margin-left: 30px;
+    font-size: 30pt;
+    float: left;
+    text-shadow: 6px 8px 6px #491C1C;
+}
+nav ul li {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    list-style: none;
+    display: inline-block;
+    text-transform: uppercase;
+}
+nav ul li a {
+    margin-right: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+    font-family: 'Segoe UI';
+    color: #fff;
+    text-shadow: 6px 8px 6px rgba(27, 26, 26, 0.562);
+    transition: 0.5s;
+}
+nav ul li a:hover {
+    margin: 50px;
+    transition: 0.5s;
+}
+nav ul li:hover {
+    background: rgba(255, 251, 0, 0.63);
+    transition: 0.5s;
+}
+.login:hover {
+    background: rgba(43, 255, 0, 0.623);
+    transition: 0.5s;
+}
+.regist:hover {
+    background: rgba(25, 0, 255, 0.596);
+    transition: 0.5s;
+}
+/* END OF NAVBAR */
+
+.h1 {
+    font-family: 'Blenda Script';
+    font-size: 48pt;
+    text-align: center;
+    text-shadow: 6px 8px 12px rgba(31, 29, 29, 0.692);
+}
+.button {
+    background-color: rgba(0, 255, 8, 0.507);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: rgb(255, 253, 253) 1px solid;
+    border-radius: 5px;
+    transition: 0,2s;
+}
+.button:hover {
+    border-color: black;
+    background-color: rgba(2, 0, 0, 0.514);
+    transition: 0.2s;
+}
+#login {
+    background-color: rgba(0, 0, 0, 0.534);
+    text-align: left;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 10%;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    box-shadow: 0px 5px 8px #16161688;
+}
+
+.form {
+    margin-right: 15%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: right;
+}
+.button {
+    margin-top: 10px;
+    /* margin: 20px; */
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    width: 100px;    
+}
+input[type="text"] {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.534);
+    border-radius: 2px;
+    color: white;
+}
+input[type="password"] {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.534);
+    border-radius: 2px;
+    color: white;
+}
+.input {
+    margin-top: 2px;
+    margin-bottom: 10px;
+    width: 220px;
+}
+#message {
+    color: white;
+    text-shadow: 0 0 12px #000;
+}
